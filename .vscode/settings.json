@@ -1,0 +1,12 @@
+{
+    "editor.formatOnSave": true,
+    "[rust]": {
+        "editor.defaultFormatter": "rust-lang.rust-analyzer"
+    },
+    "editor.inlayHints.enabled": "offUnlessPressed",
+    "rust-analyzer.diagnostics.disabled": [
+        "unlinked-file"
+    ],
+    "rust-analyzer.cargo.autoreload": true,
+    "rust-analyzer.checkOnSave": true,
+}
